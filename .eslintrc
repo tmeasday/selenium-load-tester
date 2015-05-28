@@ -1,0 +1,15 @@
+/* Percolate Studio's javascript linting configuration (Meteor)
+ *
+ * Documentation on rules can be found at:
+ * http://eslint.org/docs/rules/ <- Optionally append the rulename
+ *
+ * Ensure changes are kept in sync with the base linting configuration.
+*/
+
+{
+  "extends": ".eslintrc-percolate",
+  "env": {
+    /* Allows global vars in a node environment to pass and enables certain rules */
+    "node": true
+  }
+}
